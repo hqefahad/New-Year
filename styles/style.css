@@ -307,3 +307,14 @@ main {
     border-radius: 7%;
     box-shadow: grey 5px 5px 5px;
 }
+
+/* Subscribe Section */
+.subscribe{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.subscribe p{
+    margin: auto;
+    max-width: 900px;
+}
