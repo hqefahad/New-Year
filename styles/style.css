@@ -351,3 +351,53 @@ main {
     text-transform: capitalize;
 }
 
+footer {
+    padding: 120px;
+    background-color: #070211;
+}
+
+.footeraddress {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 20px;
+}
+
+.viraddress div {
+    display: flex;
+}
+
+.viraddress img {
+    height: 24px;
+    width: 24px;
+    padding-right: 20px;
+}
+
+.viraddress p {
+    margin: -10px 150px 0px 0px;
+}
+
+.iconsContainer {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 50px;
+    text-align: center;
+}
+
+.icons {
+    padding-right: 25px;
+}
+
+.reserve {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+}
