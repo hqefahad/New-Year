@@ -256,7 +256,7 @@ main {
     /* 160% */
 }
 
-.imagebox{
+.imagebox {
     background-image: url('../resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
     width: 100%;
@@ -267,13 +267,13 @@ main {
     margin-top: 200px;
 }
 
-.imagebox>img{
+.imagebox>img {
     margin: 50px 10px 50px 1000px;
     height: 300px;
     width: 300px;
 }
 
-.test{
+.test {
     background-image: url('../resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
@@ -284,37 +284,70 @@ main {
 }
 
 /* Portfolio section design  */
-
-.portfolio> h2{
-    margin: -45px 0px;
+.portfolio {
+    margin-top: 250px;
 }
 
-.portfolio > p{
+.portfolio>h2 {
+    margin: -45px 0px;
+    border-radius: 16px;
+}
+
+.portfolio>p {
     margin-top: 70px;
 }
 
-.imagebox{
+.imagebox {
     display: flex;
     justify-content: space-between;
 }
-.portImage{
+
+.portImage {
     margin: 0px 58px 30px 0px;
     height: 500px;
 }
 
-.portImage:hover{
+.portImage:hover {
     border: #F00 2px solid;
     border-radius: 7%;
     box-shadow: grey 5px 5px 5px;
 }
 
 /* Subscribe Section */
-.subscribe{
-    margin-top: 150px;
+.subscribe {
+    margin: 150px 0px;
     text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 150px 0px 30px 0px;
 }
 
-.subscribe p{
+.subscribe p {
     margin: auto;
     max-width: 900px;
 }
+
+.mailAddress {
+    margin: 70px;
+    height: 70px;
+    width: 600px;
+    border: 0;
+    border-radius: 75px;
+    padding-left: 85px;
+}
+
+.btnsubscribe {
+    margin-left: -120px;
+    height: 70px;
+    width: 200px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
