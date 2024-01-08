@@ -60,6 +60,7 @@
     margin-top: -20px;
 }
 
+/* party Section */
 .midNight {
     margin: 20px auto;
     background-image: url(../resources/Vectorrr.png);
@@ -108,4 +109,50 @@
     background-color: transparent;
     border: 0;
     margin: 48px 32px;
+}
+
+/* Event Details Section */
+.eventDetails {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-position: center;
+    margin: 50px 140px;
+    text-align: center;
+}
+
+.details {
+    padding: 150px 524px 24px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.details span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.btnSecondary {
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    border: 0;
+    padding: 16px 32px;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 85px;
 }
