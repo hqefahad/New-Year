@@ -156,3 +156,57 @@
     text-transform: uppercase;
     margin-bottom: 85px;
 }
+
+/* Coming Soon Section  */
+.comingSoon {
+    display: flex;
+    margin: 120px 140px;
+    justify-content: space-between;
+}
+
+.csTitle {
+    margin: 0px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.csDescription {
+    color: #F00;
+    margin-bottom: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.csDescription2 {
+    margin-top: 35px;
+    max-width: 392px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.csYearContainer h3{
+    font-size: 48px;
+}
+
+.csimgContainer {
+    width: 300px;
+    height: 300px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49.08px;
+}
+
+.csimgContainer>img {
+    height: 300px;
+}
+
+.csYearContainer img{
+    margin-top: 25px;
+}
